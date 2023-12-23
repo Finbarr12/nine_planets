@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice</title>
+    <style>
+      .planet {
+        animation: rotatePlanet 5s linear infinite;
+      }
+      @keyframes rotatePlanet {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body style="display: flex; flex-direction: column; background-color: black">
+    <center style="color: white; font-size: 30px; font-family: sans-serif">
+      <h1>The Nine Planets</h1>
+    </center>
+    <div
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 70px;
+        margin-left: 160px;
+      "
+    >
+      <div
+        style="
+          width: 170px;
+          height: 170px;
+          background: yellow;
+          border-radius: 50%;
+          position: absolute;
+          left: -45px;
+          top: 5%;
+          box-shadow: 7px 18px 19px 17px yellow;
+        "
+      ></div>
+
+      <div
+        style="
+          width: 70px;
+          height: 70px;
+          background-image: linear-gradient(to right, yellow, brown);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+        class="planet"
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Mecury
+        </p>
+      </div>
+      <div style="color: white; position: absolute; top: 20%; left: 40%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 50%; left: 60%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 30%; left: 70%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 40%; left: 80%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 24%; left: 60%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 20%; left: 20%">
+        &#9733;
+      </div>
+      <div
+        style="
+          color: white;
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          font-size: 50px;
+        "
+      >
+        &#127769;
+      </div>
+      <div style="color: white; position: absolute; top: 20%; left: 30%">
+        &#9733;
+      </div>
+      <div style="color: white; position: absolute; top: 40%; left: 30%">
+        &#9733;
+      </div>
+      <div
+        style="
+          color: white;
+          position: absolute;
+          top: 10%;
+          left: 80%;
+          font-size: 50px;
+        "
+      >
+        &#127769;
+      </div>
+      <div
+        style="
+          width: 80px;
+          height: 80px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Venus
+        </p>
+      </div>
+      <div
+        style="
+          width: 80px;
+          height: 80px;
+          background-image: linear-gradient(to right, green, aqua);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Earth
+        </p>
+      </div>
+      <div
+        style="
+          width: 80px;
+          height: 80px;
+          background-image: linear-gradient(to right, red, orange);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">Mars</p>
+      </div>
+
+      <div
+        style="
+          width: 140px;
+          height: 140px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Jupiter
+        </p>
+      </div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Saturn
+        </p>
+        <div
+          style="
+            position: absolute;
+            width: 120px;
+            height: 8px;
+            border-top: 2px solid red;
+            top: 34%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+          "
+        ></div>
+      </div>
+      <div
+        style="
+          width: 80px;
+          height: 80px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Uranus
+        </p>
+      </div>
+      <div
+        style="
+          width: 80px;
+          height: 80px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 18px; background-clip: text">
+          Neptune
+        </p>
+      </div>
+      <div
+        style="
+          width: 40px;
+          height: 40px;
+          background-image: linear-gradient(to right, blue, purple);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <p style="color: white; font-size: 12px; background-clip: text">
+          Pluto
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
